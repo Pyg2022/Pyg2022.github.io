@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Pyg Tutorials</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+    </head>
+    <body>
+        
+
+        <!This part will show at the top of all pages like an overlay-->
+
+        <div id="Page1">
+            <div class="solid_fill">
+                <h1>Pyg Tutorials</h1>
+            </div>
+            <p class="p2">Welcome to pyg tutorials. Here we have the best tips and tricks for you!</p>
+            <a href="#" onclick="return show('Page2','Page1');">
+                <div class="tutorial-cards">
+                    <p class="p">test</p>
+                </div>
+            </a>
+        </div>
+    
+        <div id="Page2" style="display:none">
+            <p class="p2">UNDER DEVELOPMENT</p>
+            <a href="#" onclick="return show('Page1','Page2');">
+                <p class="p2">This is under development! You must leave immediatly!!!!!!</p>
+                <button>Back Home</button>
+            </a>
+        </div>
+
+        <script src="main.js"></script>
+    
+    </body>
+</html>
